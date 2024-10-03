@@ -59,14 +59,14 @@ if st.sidebar.button("CountAppsTech", key="countappstech"):
 # Menampilkan konten berdasarkan halaman yang dipilih
 if st.session_state.page == "home":
     st.markdown("<h2>Selamat Datang di Pemdasin.aja</h2>", unsafe_allow_html=True)
-    st.image("while/coding.png", width=500)
+    st.image("coding.png", width=500)
 
 elif st.session_state.page == "pinTech":
     st.markdown("""
             <h3>Program PinTech</h3>
         """, unsafe_allow_html=True)
     st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
-    st.image("while/pintech.png", width=500)
+    st.image("pintech.png", width=500)
     st.markdown("</div>", unsafe_allow_html=True)
     
 
@@ -99,7 +99,7 @@ elif st.session_state.page == "pinTech":
 
 elif st.session_state.page == "countappstech":
     st.markdown("<h2>Program Hitung Angka Genap</h2>", unsafe_allow_html=True)
-    st.image("while/math.png", width=500)
+    st.image("math.png", width=500)
 
     batas = st.number_input("Masukkan batas angka:", min_value=1, value=1)
     # Inisialisasi variabel
