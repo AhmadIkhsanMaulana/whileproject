@@ -98,7 +98,7 @@ elif st.session_state.page == "pinTech":
     st.markdown("</div></div>", unsafe_allow_html=True)
 
 elif st.session_state.page == "countappstech":
-    st.markdown("<h2>Program Hitung Angka Genap</h2>", unsafe_allow_html=True)
+    st.markdown("<h2>Program Hitung Angka Genap dan Angka Ganjil</h2>", unsafe_allow_html=True)
     st.image("math.png", width=500)
 
     batas = st.number_input("Masukkan batas angka:", min_value=1, value=1)
