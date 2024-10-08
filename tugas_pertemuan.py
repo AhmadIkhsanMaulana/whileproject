@@ -98,7 +98,7 @@ elif st.session_state.page == "pinTech":
     st.markdown("</div></div>", unsafe_allow_html=True)
 
 elif st.session_state.page == "countappstech":
-    st.markdown("<h2>Program Hitung Jumlah Angka Genap dan Angka Ganjil</h2>", unsafe_allow_html=True)
+    st.markdown("<h2>Program Hitung Banyak Angka Genap dan Angka Ganjil</h2>", unsafe_allow_html=True)
     st.image("math.png", width=500)
 
     batas = st.number_input("Masukkan batas angka:", min_value=1, value=1)
@@ -116,5 +116,5 @@ elif st.session_state.page == "countappstech":
         i += 1 
 
     # Tampilkan hasil perhitungan
-    st.write(f"Jumlah angka ganjil: {ganjil}")
-    st.write(f"Jumlah angka genap: {genap}")
+    st.write(f"Banyak angka ganjil: {ganjil}")
+    st.write(f"Banyak angka genap: {genap}")
